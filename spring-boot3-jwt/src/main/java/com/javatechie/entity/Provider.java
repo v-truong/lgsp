@@ -1,10 +1,10 @@
-package com.example.openapi.entity;
+package com.javatechie.entity;
 
 import com.example.common.Entity.BaseEntity;
 
-import jakarta.persistence.Entity;
-@Entity
-
 public class Provider extends BaseEntity{
+    private String name;
+    
+
     
 }

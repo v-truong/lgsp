@@ -21,7 +21,7 @@ public class ProductController {
 
     @Autowired
     private ProductService service;
-    @Autowired
+    @Autowired  
     private JwtService jwtService;
 
     @Autowired
@@ -61,7 +61,7 @@ public class ProductController {
     }
     @GetMapping("/test")
     public String test(){
-        return service.showuser();
+        return service.showuser()+"tetretrter";
     }
 
  }
